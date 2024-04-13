@@ -1,59 +1,50 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device.width, initial-scale=1.0">
-        <title>자기소개</title>
-        <style>
-            body {
-                background-color: #696865;
-                color: #333;
-                margin: 0;
-                padding: 0;
-            }
-            .item0 {
-                max-width: 800px;
-                margin: 50px auto;
-                padding: 20px;
-                background-color: #fff3e8;
-                border-radius: 10px;
-                box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            }
-            h1 {
-                color: #092b4f63;
-            }
-            ul {
-                list-style-type:none;
-                padding: 0;
-            }
-            ul li::before {
-                content:"\2022";
-                color: #007bff;
-                font-weight: bold;
-                display: inline-block;
-                width: 1em;
-                margin-left: -1em;
-            }
-            .hobby-image1 {
-                width: 200px;
-                height: 150px;
-                margin-right: 10px;
-            }
-            .hobby-image2 {
-                max-width: 100px;
-                margin-bottom: 15px;
-            }
-            .main-title {
-                color: #1d064e5d;
-                font-size: 2.5em;
-                font-weight: bold;
-                text-align: center;
-            }
-        </style>
-    </head>
-    <body>
-        <h1 class="main-title">자기소개</h1>
-        <div class="item0">
-        <div class="item1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개</title>
+    <style>
+        body {
+            background-color: #696865;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .item1 {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff3e8;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .item2 {
+            margin-bottom: 20px; /* 각 섹션 사이의 간격 조절 */
+            padding: 20px;
+            background-color: #b9c4c1; /* 각 섹션의 배경색 */
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #092b4f63;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "\2022";
+            color: #007bff;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="item1">
+        <div class="item2">
             <h1>1st</h1>
             <p>이름: 최성민</p>
             <p>생년월일: 2001.02.03</p>
@@ -70,8 +61,6 @@
             </ul>
             <p>취미</p>
             <ul>
-                <img src="ImageToStl.com_01_mainlogo(emblem).png" alt="랜더스" class="hobby-image1">
-                <img src="nyy-logo.png" alt="양키스" class="hobby-image2">
                 <li>야구시청(KBO는 SSG, MLB는 NYY팬)</li>
                 <li>게임</li>
             </ul>
@@ -79,10 +68,10 @@
             <ul>
                 <li>장점: 책임감이 강하고 계획적, 객관적</li>
                 <li>단점: 정이 없다는 말을 자주 들음, 사투리를 써서
-                     오해받은 적이 종종 있어 고치려고 노력 중
+                    오해받은 적이 종종 있어 고치려고 노력 중
                 </li>
             </ul>
         </div>
     </div>
-    </body>
+</body>
 </html>
