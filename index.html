@@ -22,8 +22,16 @@
                 color: #092b4f63;
             }
             ul {
-                list-style-type: none;
+                list-style-type:none;
                 padding: 0;
+            }
+            ul li::before {
+                content:"\2022";
+                color: #007bff;
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                margin-left: -1em;
             }
         </style>
     </head>
